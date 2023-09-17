@@ -8,6 +8,7 @@ const PortfolioComponent = () => {
         <Row className="min-[1024px]:px-[120px]">
           <FormHeader title="Portfolio" />
         </Row>
+        <Row></Row>
       </div>
     </>
   );
