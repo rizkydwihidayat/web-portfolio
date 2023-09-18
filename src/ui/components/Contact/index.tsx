@@ -2,6 +2,12 @@ import { Col, Row, Button, Form, Input } from "antd";
 import { FormHeader } from "../common/FormHeader";
 import getConfig from "next/config";
 import { showError, showSuccess } from "@/ui/utils/tools";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "description",
+  description: "Contains a form data to sending message to my email.",
+};
 
 const ContactComponent = () => {
   const [form] = Form.useForm();

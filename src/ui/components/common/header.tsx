@@ -1,6 +1,13 @@
 import { Row, Col, Avatar, Button } from "antd";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "description",
+  description:
+    "Header for web portfolio, include profile ico and button say hello",
+};
 
 export const HeaderFixed = () => {
   const router = useRouter();

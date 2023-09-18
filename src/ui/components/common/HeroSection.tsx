@@ -1,6 +1,12 @@
 import { Row, Col, Button } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "description",
+  description: "Contains a profile picture and a summary of personal biography",
+};
 
 export const HeroSection = () => {
   return (
@@ -48,7 +54,7 @@ export const HeroSection = () => {
           ></div>
           <Image
             src="/img/IMG_1583.JPG"
-            alt="picture"
+            alt="Profile picture"
             width={400}
             height={520}
             className="mt-[-560px] rounded-md"

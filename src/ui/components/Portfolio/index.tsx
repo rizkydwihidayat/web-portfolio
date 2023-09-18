@@ -1,5 +1,11 @@
 import { Col, Row, Button, Form, Input } from "antd";
 import { FormHeader } from "../common/FormHeader";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "description",
+  description: "Contains porfolio projects.",
+};
 
 const PortfolioComponent = () => {
   return (
