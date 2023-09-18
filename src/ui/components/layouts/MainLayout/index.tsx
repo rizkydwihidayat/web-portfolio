@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { MainLayout as MainLayoutV1 } from "./section/index";
+import { Analytics } from "@vercel/analytics/react";
 
 type MainLayoutProps = {
   children: React.ReactNode;
@@ -21,7 +22,10 @@ const MainLayout = ({ children }: MainLayoutProps) => {
         variants={variants}
         transition={{ type: "linear" }}
       >
-        <MainLayoutV1>{children}</MainLayoutV1>
+        <MainLayoutV1>
+          {children}
+          <Analytics />
+        </MainLayoutV1>
       </motion.main>
     </>
   );
