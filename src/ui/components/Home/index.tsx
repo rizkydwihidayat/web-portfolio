@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { HeroSection } from "../common/HeroSection";
 import PortfolioComponent from "../Portfolio";
+import { HeroSection } from "../HeroSection";
 
 export const HomeV2 = () => {
   return (

@@ -10,7 +10,7 @@ export const HeaderFixed = () => {
         <Row className="fixed top-0 left-0 right-0 p-10 w-full z-50 bg-[#F4F3EF]">
           <Col xs={12} xl={12}>
             <Link href="/" scroll={false}>
-              <Avatar size={40} src={"/img/IMG_1583.JPG"} />{" "}
+              <Avatar size={40} src="/img/IMG_1583.webp" alt="picture icon" />{" "}
               <span className="font-bold p-4 text-black">rizkydh</span>
             </Link>
           </Col>
