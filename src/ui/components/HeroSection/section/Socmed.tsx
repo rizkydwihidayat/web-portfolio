@@ -8,7 +8,7 @@ import linkedIn from "../../../../../public/img/LinkedIn.png";
 export const SocialMediaComponent = () => {
   return (
     <>
-      <div className="grid grid-cols-3 w-[125px] gap-2">
+      <div className="grid grid-cols-3 w-[125px] gap-2 pl-5">
         <div>
           <Link
             href="https://instagram.com/rizkydwihid?igshid=YTQwZjQ0NmI0OA=="

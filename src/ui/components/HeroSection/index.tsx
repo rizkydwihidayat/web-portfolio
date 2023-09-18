@@ -27,7 +27,7 @@ export const HeroSection = () => {
             </Col>
           </Row>
         </Col>
-        <Col xs={24} xl={10} className="text-center px-10 py-20">
+        <Col xs={24} xl={10} className="item-center justify-center pl-10 py-20">
           <ProfilePict />
         </Col>
       </Row>

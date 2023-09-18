@@ -1,5 +1,6 @@
 import { Col, Row, Button, Form, Input } from "antd";
 import { FormHeader } from "../common/FormHeader";
+import { CardPortfolio } from "./section/CardPortfolio";
 
 const PortfolioComponent = () => {
   return (
@@ -15,7 +16,9 @@ const PortfolioComponent = () => {
             </p>
           </Col>
         </Row>
-        <Row></Row>
+        <Row className="min-[1024px]:px-[120px] pt-16">
+          <CardPortfolio />
+        </Row>
       </div>
     </>
   );
