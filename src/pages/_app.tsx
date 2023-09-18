@@ -12,6 +12,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <MainLayout>
           <Head>
             <title>Web Portfolio</title>
+            <meta name="description" content="Web Portfolio using Next.JS" />
           </Head>
           <AnimatePresence
             // exitBeforeEnter
